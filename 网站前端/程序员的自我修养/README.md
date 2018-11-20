@@ -365,6 +365,9 @@
     2. WebServer向CGI拉取数据，在服务器中根据模板渲染，再返回给客户端。
 
         >客户端不需要请求其他前端文件、客户端不需要运行时渲染。
+
+    >1. 验证：“查看网页源代码”看是否有直出内容、或devTool的Network查看html请求的Response是否有直出内容。
+    >2. 容错：若直出内容不是必须的，增加请求失败后的容错（如：`try-catch`、`Promise`后的`catch`）。
 2. 同构（isomorphic javascript）
 
     Web前端与Web后端（直出端）使用同一套代码方案（JavaScript）。
