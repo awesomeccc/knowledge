@@ -910,7 +910,7 @@
                 ```
                 </details>
 
-            >注意避免**引用数据类型**导致的子组件改变父级。
+            >注意：避免**引用数据类型**导致的子组件改变父级。
 
             - 还可以通过`provide/inject`从父级向所有子孙后代传递数据。
         2. 子 -> 父：通过`vm.$emit`向上传递事件、参数
@@ -2161,7 +2161,7 @@ Vue.use(MyPlugin, { someOption: true })  // Vue.use会自动阻止多次注册�
 
             配置HTML的公共静态内容，可在`pages`内重置。
 
-            >来自[vue-meta](https://github.com/declandewet/vue-meta)，可以设置多种内容，包括CSS文件、JS文件、style内容等。
+            >来自：[vue-meta](https://github.com/declandewet/vue-meta)，可以设置多种内容，包括CSS文件、JS文件、style内容等。
         7. `loading`
 
             配置加载组件。
@@ -2394,6 +2394,6 @@ Vue.use(MyPlugin, { someOption: true })  // Vue.use会自动阻止多次注册�
 
 1. 高阶组件（higher order component，HOC）
 
-    >来自[react：高阶组件](https://react.docschina.org/docs/higher-order-components.html)。
+    >来自：[react：高阶组件](https://react.docschina.org/docs/higher-order-components.html)。
 
     react中对组件逻辑进行重用的高级技术。高阶组件是一个函数，且该函数接受一个组件作为参数，并返回一个新的组件。对比组件将props属性转变成UI，高阶组件则是将一个组件转换成另一个新组件。

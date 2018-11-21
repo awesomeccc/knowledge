@@ -265,7 +265,7 @@
         4. 持久性（durability）：已被提交的事务对数据库的修改应该永久保存在数据库中。
 
 ### bug调试方式
->参考[程序员新人怎样在复杂代码中找 bug？](https://www.zhihu.com/question/23019630/answer/23369396)。
+>参考：[程序员新人怎样在复杂代码中找 bug？](https://www.zhihu.com/question/23019630/answer/23369396)。
 
 1. 打断点、输出中间值、堆栈跟踪
 2. 优先解决可重现bug
@@ -548,7 +548,7 @@ MV\*的本质都一样：在于Model与View的桥梁\*。\*各种模式不同，
 2. 非严格求值：参数的计算求值根据传入函数后的使用情况进行（惰性求值，在函数内有用到才求值）
 
 ### 云服务
->参考[有哪些通俗易懂的例子可以解释 IaaS、PaaS、SaaS 的区别？](https://www.zhihu.com/question/21641778)。
+>参考：[有哪些通俗易懂的例子可以解释 IaaS、PaaS、SaaS 的区别？](https://www.zhihu.com/question/21641778)。
 
 1. IaaS（Infrastructure as a Service，基础设施即服务）
 2. PaaS（Platform as a Service，平台即服务）
@@ -583,7 +583,7 @@ MV\*的本质都一样：在于Model与View的桥梁\*。\*各种模式不同，
     4. 若队列为空，表示整张图都检查过了——亦即图中没有欲搜索的目标。结束搜索并回传“找不到目标”。
 
 ### 抽象语法树（abstract syntax tree，AST）
->来自[Abstract Syntax Tree 抽象语法树简介](https://div.io/topic/1994)。
+>来自：[Abstract Syntax Tree 抽象语法树简介](https://div.io/topic/1994)。
 
 源代码的抽象语法结构的树状表现形式。
 
@@ -606,7 +606,7 @@ MV\*的本质都一样：在于Model与View的桥梁\*。\*各种模式不同，
             >e.g. 打包工具、不同模块化方案间转换、CoffeeScript/TypeScript/JSX转化为原生JS。
 
 ### 编译器原理
->来自[the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)。
+>来自：[the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)。
 
 （广义的）编译器：把一种语言代码转为另一种语言代码的程序。
 
@@ -849,7 +849,7 @@ MV\*的本质都一样：在于Model与View的桥梁\*。\*各种模式不同，
         >因为传递的是文本格式，所以无法传递byte类型数据（二进制文件，如：图片）。
 2. JSON的数据类型
 
-    >来自[www.json.org](https://www.json.org/json-zh.html)
+    >来自：[www.json.org](https://www.json.org/json-zh.html)。
 
     >作者-道格拉斯·克罗克福特（Douglas Crockford）-设计的JSON实际上是JavaScript的一个子集，并且声称JSON的规格永远不必升级，因为该规定的都规定了。
 
