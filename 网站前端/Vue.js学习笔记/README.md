@@ -1241,7 +1241,7 @@ MyPlugin.install = function (Vue, options) { // 第一个参数是Vue构造器�
 
 
 // 在其他地方使用
-Vue.use(MyPlugin, { someOption: true })  // Vue.use会自动阻止多次注册相同插件，届时只会注册一次该插件。
+Vue.use(MyPlugin, { /* 向MyPlugin传入的参数 */ })  // Vue.use会自动阻止多次注册相同插件，届时只会注册一次该插件。
 ```
 
 ### 特性
