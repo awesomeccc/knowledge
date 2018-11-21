@@ -889,6 +889,7 @@ MV\*的本质都一样：在于Model与View的桥梁\*。\*各种模式不同，
 
     1. [JSON Schema](https://json-schema.org/)
     2. [MessagePack](https://msgpack.org/)
+    3. [JSON5](https://github.com/json5/json5)
 
 - <details>
 
