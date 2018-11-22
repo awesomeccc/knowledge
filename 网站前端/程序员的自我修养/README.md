@@ -385,8 +385,8 @@
     在前端代码构建时（利用Node.js插件等）就渲染好页面，不需要服务端或客户端渲染。
 
 ><details>
->
 ><summary>好处</summary>
+>
 >1. 更好的搜索引擎优化（SEO，search engine optimization）
 >
 >    大部分搜索引擎在爬页面时不支持客户端渲染。
