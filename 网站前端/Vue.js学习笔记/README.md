@@ -20,6 +20,7 @@
 1. [nuxt](#nuxt)
 1. [jQuery与Vue.js对比](#jquery与vuejs对比)
 1. [其他概念](#其他概念)
+1. [SSR](#ssr)
 
 ---
 ## [vue](https://github.com/vuejs/vue)
@@ -1332,6 +1333,9 @@ Vue.use(MyPlugin, { /* 向MyPlugin传入的参数 */ })  // Vue.use会自动阻�
     }
     </script>
     ```
+
+### [SSR](https://ssr.vuejs.org/zh/)
+若在`mounted`之前改变DOM，会导致DOM和VNODE不同而出问题。因此建议SSR的应用，不要在`mounted`之前进行修改能导致模板变化的数据。
 
 ---
 ### [vue-router](https://github.com/vuejs/vue-router)
