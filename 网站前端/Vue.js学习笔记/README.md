@@ -14,13 +14,13 @@
     1. [响应式系统](#响应式系统)
     1. [虚拟DOM系统](#虚拟dom系统)
     1. [例子](#例子)
+    1. [SSR](#ssr)
 1. [vue-router](#vue-router)
 1. [vuex](#vuex)
 1. [vue-cli](#vue-cli)
 1. [nuxt](#nuxt)
 1. [jQuery与Vue.js对比](#jquery与vuejs对比)
 1. [其他概念](#其他概念)
-1. [SSR](#ssr)
 
 ---
 ## [vue](https://github.com/vuejs/vue)
